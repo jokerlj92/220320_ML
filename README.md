@@ -14,12 +14,12 @@ python main.py --data_path ./dataset/Custom/national_illness.csv --dataset Custo
 ```
 **2. to predict ETT data**
 ```
-python main.py --data_path ./dataset/Custom/national_illness.csv --dataset ETT --model LinearRegression --transform BoxCox
+python main.py --data_path ./dataset/ETT-small/ETTh1.csv --dataset ETT --model LinearRegression --transform BoxCox
 ```
 
 **3. to predict M4 data**
 ```
-python main.py --data_path ./dataset/Custom/national_illness.csv --dataset M4 --model LinearRegression --transform BoxCox
+python main.py --data_path ./dataset/m4 --dataset M4 --model LinearRegression --transform BoxCox
 ```
 
 you can change to different "model" and "transform", they have the choices below:
@@ -28,7 +28,7 @@ you can change to different "model" and "transform", they have the choices below
   - MeanForecast
   - LinearRegression
   - ExponentialSmoothing
-- 
+  - 
 - transform:
   - IdentityTransform
   - Normalization
@@ -37,4 +37,15 @@ you can change to different "model" and "transform", they have the choices below
   - BoxCox
 
 ## Datasets used for testing
+
+| Dataset  | Model | Transform | MSE  | MAE  | MAPE | SMAPE | MASE |
+| -------- | ----- | --------- | ----- | ----- | ----- | ----- | ----- |
+| dataset | AR    | None      |      |      |      |       |      |
+|          |       | Normalize |      |      |      |       |      |
+|          |       | Box-Cox   |      |      |      |       |      |
+|          |       | ...       |      |      |      |       |      |
+|          | EMA   | None      |      |      |      |       |      |
+|          |       | Normalize |      |      |      |       |      |
+|          |       | Box-Cox   |      |      |      |       |      |
+|          |       | ...       |      |      |      |       |      |
 
