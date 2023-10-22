@@ -23,18 +23,18 @@ python main.py --data_path ./dataset/Custom/national_illness.csv --dataset M4 --
 ```
 
 you can change to different "model" and "transform", they have the choices below:
-model:
-- ZeroForecast
-- MeanForecast
-- LinearRegression
-- ExponentialSmoothing
+- model:
+  - ZeroForecast
+  - MeanForecast
+  - LinearRegression
+  - ExponentialSmoothing
 - 
-transform:
-- IdentityTransform
-- Normalization
-- Standardization
-- MeanNormalization
-- BoxCox
-- 
+- transform:
+  - IdentityTransform
+  - Normalization
+  - Standardization
+  - MeanNormalization
+  - BoxCox
+
 ## Datasets used for testing
 
