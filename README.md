@@ -1,2 +1,4 @@
-# 220320_ML
-Learning notes of ML/AI
+# 时间序列分析_HW1
+李娟_502023370023
+
+
