@@ -46,10 +46,10 @@ you can change to different "model" and "transform", they have the choices below
 |          |       | MeanNormalization       |  124655037792.7749    |  302760.356631112    |   29.541107595428787   |    24.752765513332992   |   1.52317329972204   |
 |          |       | Box-Cox   |  42638375744.62222    |   159929.04183991143   |  14.398231461498552    |    14.797632468908793   |  0.6788536693224265    |
 |          | ES   | None      |      |      |      |       |      |
-|          |       | Normalize |      |      |      |       |      |
+|          |       | Normalization |      |      |      |       |      |
+|          |       | Standardization       |      |      |      |       |      |
+|          |       | MeanNormalization       |      |      |      |       |      |
 |          |       | Box-Cox   |      |      |      |       |      
-|          |       | ...       |      |      |      |       |      |
-
 
 
 
