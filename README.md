@@ -19,7 +19,7 @@ python main.py --data_path ./dataset/ETT-small/ETTh1.csv --dataset ETT --model L
 
 **3. to predict M4 data**
 ```
-python main.py --data_path ./dataset/m4 --dataset M4 --model LinearRegression --transform BoxCox
+python main.py --data_path ./dataset/m4 --train_data_path /Daily-train.csv --test_data_path /Daily-test.csv --dataset M4 --model LinearRegression --transform BoxCox
 ```
 
 you can change to different "model" and "transform", they have the choices below:
@@ -40,11 +40,11 @@ you can change to different "model" and "transform", they have the choices below
 
 | Dataset  | Model | Transform | MSE  | MAE  | MAPE | SMAPE | MASE |
 | -------- | ----- | --------- | ----- | ----- | ----- | ----- | ----- |
-| dataset | AR    | None      |      |      |      |       |      |
+| national_illness  | LR    | None      |      |      |      |       |      |
 |          |       | Normalize |      |      |      |       |      |
 |          |       | Box-Cox   |      |      |      |       |      |
 |          |       | ...       |      |      |      |       |      |
-|          | EMA   | None      |      |      |      |       |      |
+|          | ES   | None      |      |      |      |       |      |
 |          |       | Normalize |      |      |      |       |      |
 |          |       | Box-Cox   |      |      |      |       |      |
 |          |       | ...       |      |      |      |       |      |
