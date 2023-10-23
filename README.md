@@ -66,16 +66,16 @@ you can change to different "model" and "transform", they have the choices below
 |          |       | Standardization     |  6.427e+10   |   2.125e+05   |   2.102e+01  |   1.872e+01   |   9.496e-01   |
 |          |       | MeanNormalization    |   6.427e+10   |   2.125e+05   |   2.102e+01   |   1.872e+01   |   9.496e-01   |
 |          |       | Box-Cox   |   8.645e+10   |  2.549e+05    |   2.129e+01   |    2.374e+01   |   1.236e+00   |
-| ETTh1  | LR    | None      |      |      |      |      |      |
-|          |       | Normalization |     |      |      |      |      |
-|          |       | Standardization   |      |      |      |      |      |
-|          |       | MeanNormalization   |     |      |      |      |      |
-|          |       | Box-Cox   |     |      |      |      |      |
-|          | ExponentialSmoothing   | None      |      |      |      |      |      |
-|          |       | Normalization |     |      |      |      |      |
-|          |       | Standardization   |      |      |      |      |      |
-|          |       | MeanNormalization   |     |      |      |      |      |
-|          |       | Box-Cox   |     |      |      |      |      |  
+| ETTh1  | LR    | None      |   3.451e+00   |   1.370e+00   |   3.603e+04   |   3.169e+01   |   1.105e+00   |
+|          |       | Normalization |   1.339e+01  |   3.037e+00   |  1.234e+05    |  5.169e+01    |   2.853e+00   |
+|          |       | Standardization   |  1.557e+01    |   3.272e+00   |   1.339e+05   |   5.406e+01   |   3.095e+00   |
+|          |       | MeanNormalization   |  1.404e+01   |   3.122e+00   |  1.290e+05    |  5.254e+01    |   2.932e+00   |
+|          |       | Box-Cox   |   3.679e+00  |  1.423e+00    |   3.047e+04   |   3.522e+01   |   1.154e+00   |
+|          | ExponentialSmoothing   | None      |   4.136e+00   |   1.538e+00   |   4.114e+04   |  3.499e+01    |   1.277e+00   |
+|          |       | Normalization |  1.377e+01   |   3.050e+00   |   1.226e+05   |  5.175e+01    |  2.866e+00    |
+|          |       | Standardization   |   1.555e+01   |   3.260e+00   |   1.351e+05   |   5.370e+01   |   3.085e+00   |
+|          |       | MeanNormalization   |  1.434e+01   |    3.137e+00  |    1.279e+05  |   5.267e+01   |   2.946e+00   |
+|          |       | Box-Cox   |   4.291e+00  |   1.568e+00   |  3.612e+04    |   3.821e+01   |  1.303e+00    |  
 |          | MeanForecast   | None      |      |      |      |      |      |
 |          |       | Normalization |     |      |      |      |      |
 |          |       | Standardization   |      |      |      |      |      |
