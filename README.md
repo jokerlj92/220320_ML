@@ -66,7 +66,6 @@ you can change to different "model" and "transform", they have the choices below
 |          |       | Standardization     |  6.427e+10   |   2.125e+05   |   2.102e+01  |   1.872e+01   |   9.496e-01   |
 |          |       | MeanNormalization    |   6.427e+10   |   2.125e+05   |   2.102e+01   |   1.872e+01   |   9.496e-01   |
 |          |       | Box-Cox   |   8.645e+10   |  2.549e+05    |   2.129e+01   |    2.374e+01   |   1.236e+00   |
-
 | ETTh1  | LR    | None      |      |      |      |      |      |
 |          |       | Normalization |     |      |      |      |      |
 |          |       | Standardization   |      |      |      |      |      |
