@@ -44,10 +44,10 @@ you can change to different "model" and "transform", they have the choices below
   - traffic
   - weather
 - ETT-samll dataset
-  -ETTh1
-  -ETTh2
-  -ETTm1
-  -ETTm2
+  - ETTh1
+  - ETTh2
+  - ETTm1
+  - ETTm2
 
 | Dataset  | Model | Transform | MSE  | MAE  | MAPE | SMAPE | MASE |
 | -------- | ----- | --------- | ----- | ----- | ----- | ----- | ----- |
