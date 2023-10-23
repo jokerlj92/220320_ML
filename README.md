@@ -51,7 +51,7 @@ you can change to different "model" and "transform", they have the choices below
 
 | Dataset  | Model | Transform | MSE  | MAE  | MAPE | SMAPE | MASE |
 | -------- | ----- | --------- | ----- | ----- | ----- | ----- | ----- |
-| national_illness  | LR    | None      |   4.187e+10   |  1.578e+05    |  1.420e+01    |   1.455e+01   |  6.666e-01    |
+| national_illness  | LinearRegression    | None      |   4.187e+10   |  1.578e+05    |  1.420e+01    |   1.455e+01   |  6.666e-01    |
 |          |       | Normalization |   8.044e+10   |  2.315e+05    |   2.245e+01   |   1.968e+01    |   1.134e+00   |
 |          |       | Standardization   |   1.437e+11   |   3.138e+05   |   3.046e+01    |   2.506e+01    |   1.651e+00   |
 |          |       | MeanNormalization   |  1.247e+11   |  3.028e+05   |   2.954e+01   |   2.475e+01   |   1.523e+00   |
@@ -66,7 +66,7 @@ you can change to different "model" and "transform", they have the choices below
 |          |       | Standardization     |  6.427e+10   |   2.125e+05   |   2.102e+01  |   1.872e+01   |   9.496e-01   |
 |          |       | MeanNormalization    |   6.427e+10   |   2.125e+05   |   2.102e+01   |   1.872e+01   |   9.496e-01   |
 |          |       | Box-Cox   |   8.645e+10   |  2.549e+05    |   2.129e+01   |    2.374e+01   |   1.236e+00   |
-| ETTh1  | LR    | None      |   3.451e+00   |   1.370e+00   |   3.603e+04   |   3.169e+01   |   1.105e+00   |
+| ETTh1  | LinearRegression    | None      |   3.451e+00   |   1.370e+00   |   3.603e+04   |   3.169e+01   |   1.105e+00   |
 |          |       | Normalization |   1.339e+01  |   3.037e+00   |  1.234e+05    |  5.169e+01    |   2.853e+00   |
 |          |       | Standardization   |  1.557e+01    |   3.272e+00   |   1.339e+05   |   5.406e+01   |   3.095e+00   |
 |          |       | MeanNormalization   |  1.404e+01   |   3.122e+00   |  1.290e+05    |  5.254e+01    |   2.932e+00   |
