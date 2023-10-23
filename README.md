@@ -1,11 +1,11 @@
 # 时间序列分析_HW1
 ## Install necessary dependencies
 - python = 3.9
-- numpy
-- argparse
-- matplotlib
-- sklearn
-- pandas
+- numpy = 1.25.2
+- argparse = 1.4.0
+- matplotlib = 3.7.2
+- sklearn = 1.3.0
+- pandas = 2.0.3
 
 ## How to run the code
 **1. to predict custom data**
@@ -37,6 +37,17 @@ you can change to different "model" and "transform", they have the choices below
   - BoxCox
 
 ## Datasets used for testing
+- Custom dataset
+  - national_illness
+  - exchange_rate
+  - electricity
+  - traffic
+  - weather
+- ETT-samll dataset
+  -ETTh1
+  -ETTh2
+  -ETTm1
+  -ETTm2
 
 | Dataset  | Model | Transform | MSE  | MAE  | MAPE | SMAPE | MASE |
 | -------- | ----- | --------- | ----- | ----- | ----- | ----- | ----- |
