@@ -40,8 +40,8 @@ you can change to different "model" and "transform", they have the choices below
 
 | Dataset  | Model | Transform | MSE  | MAE  | MAPE | SMAPE | MASE |
 | -------- | ----- | --------- | ----- | ----- | ----- | ----- | ----- |
-| national_illness  | LR    | None      |    41873290900.54705  |  157843.04140472738    |  14.200357488256222    |    14.548925243195988   |  0.6666227076832995    |
-|          |       | Normalization |   80442016844.21046   |  231471.33907994715    |   22.445034850135823   |   19.678602755137977    |   1.1335854469331883   |
+| national_illness  | LR    | None      |   4.187e+10   |  1.578e+05    |  1.420e+01    |   1.455e+01   |  6.666e-01    |
+|          |       | Normalization |   8.044e+10   |  2.315e+05    |   2.245e+01   |   1.968e+01    |   1.134e+00   |
 |          |       | Standardization   |   1.437e+11   |   3.138e+05   |   3.046e+01    |   2.506e+01    |   1.651e+00   |
 |          |       | MeanNormalization   |  1.247e+11   |  3.028e+05   |   2.954e+01   |   2.475e+01   |   1.523e+00   |
 |          |       | Box-Cox   |  4.264e+10    |   1.599e+05   |  1.440e+01   |   1.480e+01   |  6.789e-01   |
