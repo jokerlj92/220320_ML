@@ -22,7 +22,7 @@ python main.py --data_path ./dataset/ETT-small/ETTh1.csv --dataset ETT --model L
 python main.py --data_path ./dataset/m4 --train_data_path /Daily-train.csv --test_data_path /Daily-test.csv --dataset M4 --model LinearRegression --transform BoxCox
 ```
 
-you can change to different "model" and "transform", they have the choices below:
+you can change "model" and "transform" to the parameters below:
 - model:
   - ZeroForecast
   - MeanForecast
@@ -37,6 +37,7 @@ you can change to different "model" and "transform", they have the choices below
   - BoxCox
 
 ## Datasets used for testing
+you can use the dataset below to test:
 - Custom dataset
   - national_illness
   - exchange_rate
